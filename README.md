@@ -1,4 +1,6 @@
 # caravel.AI-interview
-'''python
-int
+'''javascript
+var s="python syntax "
+print s
+'''
 '''
