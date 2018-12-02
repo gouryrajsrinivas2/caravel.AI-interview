@@ -3,4 +3,3 @@
 var s="python syntax "
 print s
 '''
-'''
