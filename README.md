@@ -64,7 +64,7 @@ body{
 }
 ```
 #### client-side scripting
-we make our elements to change dynamically so we use client side scripting languages like `javascript` or libraries like `JQuery` etc.
+we make our elements to change dynamically so we use client side scripting languages like `javascript`.
 ```javascript
 document.getElementById('idname').innerHTML='javscript';
 var x,y;
@@ -72,6 +72,7 @@ function myFunction(){
 	return this;
 }
 ```
+we can even use libraries of javascript like `JQuery` 
 ```JQuery
 $(document).ready(function(){
 	$("element").event_method(function{
@@ -94,15 +95,17 @@ class Car {
     $herbie = new Car();
     echo $herbie->model;
 }
+?>
 ```
 #### database connectivity
 we generally store data related to our website at a place called database.we can authenticate users and store and retrive data using databases. we generally use `mysql`,`oracle`,`mongoDB` etc.
  
 In Relational DBMS we uses tables to store date.
-##### syntaxes:
+```sql 
 create table table-name(column-name datatype);
 select * from tablename;
-etc
+```
+
 
 we can also use many constraints etc.
 
