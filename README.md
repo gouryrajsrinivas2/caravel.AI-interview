@@ -1,5 +1,5 @@
 # caravel.AI-interview
-'''javascript
+```javascript
 var s="python syntax "
 print s
-'''
+```
